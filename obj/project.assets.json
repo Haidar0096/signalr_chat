@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/acksessionmacbook/.nuget/packages/": {}
+    "/Users/haidarmehsen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/acksessionmacbook/Dev/work/dotnet/SignalRChat/SignalRChat.csproj",
+      "projectUniqueName": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
       "projectName": "SignalRChat",
-      "projectPath": "/Users/acksessionmacbook/Dev/work/dotnet/SignalRChat/SignalRChat.csproj",
-      "packagesPath": "/Users/acksessionmacbook/.nuget/packages/",
-      "outputPath": "/Users/acksessionmacbook/Dev/work/dotnet/SignalRChat/obj/",
+      "projectPath": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
+      "packagesPath": "/Users/haidarmehsen/.nuget/packages/",
+      "outputPath": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/acksessionmacbook/.nuget/NuGet/NuGet.Config"
+        "/Users/haidarmehsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

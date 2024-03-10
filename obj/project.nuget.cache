@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mUAMQK3UcbGE37IseknckVL3CPGpVuRuBXGUnxrMdYIghsp886GwwLGuJWujiGtelZl0Z8KkqKyqg4vvs7/Iqw==",
+  "dgSpecHash": "pd/CRF8Qu3rJa7y6/v8Xnklm9pM3nqUlnXJFphogSTuI3nwYrCLWFlqggUU8vxc3LeuXH+LAHwPaMPz/4seicg==",
   "success": true,
-  "projectFilePath": "/Users/acksessionmacbook/Dev/work/dotnet/SignalRChat/SignalRChat.csproj",
+  "projectFilePath": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
