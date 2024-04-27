@@ -10,26 +10,23 @@ namespace SignalRChat.Hubs
             return base.OnConnectedAsync();
         }
 
-        public Task InvokeReceiveMessage(string connectionId, string user, string message) =>
-         Clients.Client(connectionId).SendAsync("ReceiveMessage", user, message);
-
 
         public async Task NoArgsEchoMethod()
         {
-            string message = "You invoked the " + nameof(NoArgsEchoMethod) + " method with no arguments";
-            await InvokeReceiveMessage(Context.ConnectionId, "Server", message);
+            await Clients.Client(Context.ConnectionId).SendAsync(nameof(NoArgsEchoMethod));
         }
 
-        public Task OneArgMethod(string agr1)
+        public Task OneArgEchoMethod(string agr1)
         {
-            string message = "You invoked the " + nameof(OneArgMethod) + " method with argument: " + agr1;
-            return InvokeReceiveMessage(Context.ConnectionId, "Server", message); 
+            string message = "You invoked the " + nameof(OneArgEchoMethod) + " method with argument: " + agr1;
+            return Clients.Client(Context.ConnectionId).SendAsync(nameof(OneArgEchoMethod), message);
         }
 
-        public Task TwoArgsMethod(string arg1, string arg2)
+        public Task TwoArgsEchoMethod(string arg1, string arg2)
         {
-            string message = "You invoked the " + nameof(TwoArgsMethod) + " method with arguments: " + arg1 + " and " + arg2;
-            return InvokeReceiveMessage(Context.ConnectionId, "Server", message);
+            string msg1 = "You invoked the " + nameof(TwoArgsEchoMethod) + " method";
+            string msg2 = "arguments: " + arg1 + " and " + arg2;
+            return Clients.Client(Context.ConnectionId).SendAsync(nameof(TwoArgsEchoMethod), msg1, msg2);
         }
     }
 }
