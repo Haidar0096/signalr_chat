@@ -10,6 +10,12 @@ namespace SignalRChat.Hubs
             return base.OnConnectedAsync();
         }
 
+        public override Task OnDisconnectedAsync(Exception? exception)
+        {
+            Console.WriteLine("A client has disconnected from the server, with connection id: " + Context.ConnectionId);
+            return base.OnDisconnectedAsync(exception);
+        }
+
 
         public async Task NoArgsEchoMethod()
         {
