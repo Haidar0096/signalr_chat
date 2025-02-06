@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj": {}
+    "/Users/haidarmehsen/dev/projects/dotnet/signalr_chat/SignalRChat.csproj": {}
   },
   "projects": {
-    "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj": {
+    "/Users/haidarmehsen/dev/projects/dotnet/signalr_chat/SignalRChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
+        "projectUniqueName": "/Users/haidarmehsen/dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
         "projectName": "SignalRChat",
-        "projectPath": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
+        "projectPath": "/Users/haidarmehsen/dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
         "packagesPath": "/Users/haidarmehsen/.nuget/packages/",
-        "outputPath": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/obj/",
+        "outputPath": "/Users/haidarmehsen/dev/projects/dotnet/signalr_chat/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/haidarmehsen/.nuget/NuGet/NuGet.Config"
@@ -36,8 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

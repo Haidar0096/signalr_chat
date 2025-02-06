@@ -28,5 +28,15 @@ namespace SignalRChat.Hubs
             string msg2 = "arguments: " + arg1 + " and " + arg2;
             return Clients.Client(Context.ConnectionId).SendAsync(nameof(TwoArgsEchoMethod), msg1, msg2);
         }
+
+        public Task SendMessage(string username, string message, string recepientConnectionId)
+        {
+            return Clients.Client(recepientConnectionId).SendAsync("ReceiveMessage", username, message);
+        }
+
+        public Task ReceiveMessage(string username, string message)
+        {
+            return Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", username, message);
+        }
     }
 }

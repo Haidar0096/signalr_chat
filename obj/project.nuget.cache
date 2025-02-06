@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F++i0ld3vRV2EL6Fx4qeTH5qXxP84XPrjY8nv9ri6S/rshJQR0xp1WhDS9of6vuYGpJ4iXOUvWBiTdw6/QzdSQ==",
+  "dgSpecHash": "u+zTW9lvDXk=",
   "success": true,
-  "projectFilePath": "/Users/haidarmehsen/Dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
+  "projectFilePath": "/Users/haidarmehsen/dev/projects/dotnet/signalr_chat/SignalRChat.csproj",
   "expectedPackageFiles": [
     "/Users/haidarmehsen/.nuget/packages/azure.core/1.36.0/azure.core.1.36.0.nupkg.sha512",
     "/Users/haidarmehsen/.nuget/packages/azure.identity/1.10.4/azure.identity.1.10.4.nupkg.sha512",
@@ -60,5 +60,46 @@
     "/Users/haidarmehsen/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/Users/haidarmehsen/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
